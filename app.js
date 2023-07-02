@@ -68,3 +68,4 @@ app.delete("/players/:player", async (req, res) => {
   await db.run(query);
   res.send("player removed");
 });
+module.exports=app;
